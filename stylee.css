@@ -1,0 +1,79 @@
+.container{
+    width:350px;
+    height:auto;
+    margin: 50px auto;
+    border-radius: 10px;
+    background-color: white;
+    overflow: hidden;
+   
+}
+*/{
+   font-family: 'Karla', sans-serif;
+}
+.container .top{
+    padding:1px 30px;
+}
+.container .items{
+    display: flex;
+    border-radius: 20px;
+}
+.container .items .item{
+    width: 50%;
+    /* background-color:  hsl(179, 62%, 43%); */
+    
+    padding: 15px;
+}
+.container .items #item1{
+    background-color:  hsl(179, 62%, 43%);
+}
+.container .items #item2{
+    background-color:  hsl(179, 62%, 50%);
+}
+.container #heading{
+   font-size: 16px;
+   color:hsl(179, 62%, 43%) ;
+}
+body{
+    background-color: gainsboro;
+}
+#secondLine{
+    color: hsl(71, 73%, 54%);
+}
+p{
+    color: gray;
+    font-size: 11px;
+}
+.item h3{
+    font-size: 11px;
+    color: white;
+}
+.item h2{
+    font-size: 11px;
+    color: hsl(218, 22%, 67%);
+}
+.item span{
+   font-size: 25px;
+   color: white;
+}
+.item p{
+    color: gainsboro;
+}
+.item button{
+    background-color: hsl(71, 73%, 54%);
+    padding: 5px 25px;
+    border: none;
+    color: white;
+}
+@media(max-width:375px){
+    .container{
+        width: 170px;
+
+    }
+    .container .items{
+        display: flex;
+        flex-direction: column;
+    }
+    .container .items .item{
+        width: 100%;
+    }
+}
